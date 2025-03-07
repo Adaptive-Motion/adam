@@ -1,8 +1,8 @@
-# Natural Language Programmable Camera: Technical Design
+# Adaptive Vision-Language Model System with Dynamic Mixture of Experts
 
 ## Abstract
 
-We present a vision intelligence system that enables non-technical users to program camera-based detection tasks using natural language instructions. Our system employs a modular architecture that balances computational efficiency with detection accuracy, combining edge computing with cloud-based processing. The core innovation lies in our bi-directional knowledge transfer between model tiers and parameter-efficient adaptation techniques. This technical report details the system architecture, implementation, and key technical innovations.
+We introduce an advanced vision-language intelligence system that integrates dynamic mixture of experts (DynMoE) with adaptive processing capabilities for efficient and accurate real-time visual analysis. Our system is designed to optimize computational efficiency while ensuring high detection accuracy by dynamically activating specialized model components based on video content characteristics. The architecture consists of a multi-tier processing pipeline, where edge devices perform lightweight filtering before transmitting selected data to cloud-based deep learning models. The core innovation lies in the bidirectional knowledge transfer between model tiers, enabling continuous improvement of edge models through distillation from more complex cloud models. Our approach leverages parameter-efficient adaptation techniques to rapidly customize detection workflows based on user-defined natural language instructions. The DynMoE framework adaptively routes video frames to specialized expert models optimized for varying scene complexities, significantly reducing inference latency and computational overhead. This dynamic expert activation strategy enables fine-grained resource allocation, allowing the system to maintain real-time performance even under high video throughput conditions. Furthermore, our adaptive learning mechanisms facilitate few-shot adaptation, allowing rapid deployment with minimal labeled data. 
 
 # PART I: SYSTEM OVERVIEW
 
